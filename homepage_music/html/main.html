@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charaset="UTF-8">
+        <title>メインホーム</title>
+        <meta name="description" content="ここから曲のリンクにとびます">
+        <link rel="stylesheet" href="../code/code_main/CSS_code_main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="../code/code_main/JS_code_main.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>メインホーム</h1>
+        </header>
+
+        <main>
+            <p>ここから曲のリンクにとびます</p>
+            <ul>
+                <li><a href="../html/slight-fever.html">飴色の微熱</a></li>
+                <!---<li><a href="リンク">曲名</a></li>--->
+            </ul>
+        </main>
+
+        <footer>
+            <p>お問い合わせ</p>
+            <form action="https://formspree.io/f/xldlzjjd" method="POST">
+                <label>     
+                    Your Name:
+                    <input type="text" name="name" placeholder="お名前" required>           
+                </label><br>
+                <label>
+                    Your Email:
+                    <input type="email" name="_replyto" placeholder="メールアドレス" required>
+                </label><br>
+                <label>
+                    Subject:
+                    <select name="subject" required>
+                        <option value="お問い合わせ">お問い合わせ</option>
+                        <option value="ご意見">ご意見</option>
+                        <option value="ご要望">ご要望</option>
+                        <option value="バグ報告">バグ報告</option>
+                        <option value="その他">その他</option>
+                    </select>
+                </label><br>
+                <label>
+                    Your Message:
+                    <textarea type="message" name="message" placeholder="メッセージを入力" required></textarea>
+                </label><br>
+                <button type="submit">送信</button>
+            <p>このサイトは個人製作です</p>
+        </footer>
+    </body>
+        
